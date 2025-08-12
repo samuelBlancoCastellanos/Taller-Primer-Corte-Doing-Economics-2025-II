@@ -6,6 +6,10 @@ Este repositorio contiene el primer trabajo realizado con la base de datos “En
 Primer acercamiento:
 **¿Cómo se conectan los micronegocios con el sector financiero?**
 
+Para responder esta pregunta se empleó la base de datos "Base_de_datos_encuesta". Con este material, se analizaron las respuestas a las preguntas 503, 504, 505, 506 y 507 de la Encuesta de Emprendimiento (WP1-2023-001), disponible en el repositorio: https://research-data.urosario.edu.co/dataset.xhtml?persistentId=doi:10.34848/JLP6C3 .
+
+El objetivo fue identificar si los tenderos habían accedido a un crédito en los últimos 12 meses; en caso negativo, conocer las razones por las que no lo hicieron; y, en caso afirmativo, determinar a través de qué institución lo obtuvieron (banco, amigos, familiares o prestamistas particulares conocidos como “gota a gota”). Estos resultados se pueden encontrar en la carpeta ...
+
 En nuestro segundo trabajo, el objetivo es que la empresa pueda responder una pregunta clave: "¿En qué zonas se registra una mayor penetración de internet que permita implementar un servicio orientado al fortalecimiento de las microempresas?"
 A partir de esta pregunta principal, se pueden dividir tareas específicas que permitan realizar un análisis utilizando la base de datos Encuesta Emprendimiento Seguimiento Final. Esta base nos ayuda a identificar qué ciudades tienen una mayor población de microempresas que utilizan internet, lo que a su vez permite extraer los siguientes datos
 
