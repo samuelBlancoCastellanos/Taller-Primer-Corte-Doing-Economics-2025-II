@@ -3,6 +3,8 @@ Este grupo de Haciendo Economia está conformado por Samuel Blanco(...), Joan Sc
 
 Este repositorio contiene el primer trabajo realizado con la base de datos “Encuesta Emprendimiento Seguimiento Final” que se encuentra subida en Rawdata como "Base_de_datos_encuesta" (puede descargarse del repositorio: https://research-data.urosario.edu.co/dataset.xhtml?persistentId=doi:10.34848/JLP6C3)
 
+El trabajo es completamente reproducible y los productos del mismo se encuentran en este repositorio. El entregable final es el codigo, las bases que se encuentran en las carpetas de "Output" y "Created data" y todo se encuentra sintetizado en la presetación final en la carpeta "slides".
+
 Primer acercamiento:
 **¿Cómo se conectan los micronegocios con el sector financiero?**
 
