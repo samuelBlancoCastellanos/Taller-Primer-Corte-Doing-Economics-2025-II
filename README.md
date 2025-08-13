@@ -1,7 +1,7 @@
 # Taller-Primer-Corte-Doing-Economics-2025-II
 Este grupo de Haciendo Economia está conformado por Samuel Blanco(...), Joan Schick(...), Juan Rusinque(...) y Alejo Herrera(...).
 
-Este repositorio contiene el primer trabajo realizado con la base de datos “Encuesta Emprendimiento Seguimiento Final” que se encuentra subida en Rawdata como "Base_de_datos_encuesta" (puede descargarse del repositorio: https://research-data.urosario.edu.co/dataset.xhtml?persistentId=doi:10.34848/JLP6C3)
+Este repositorio contiene el primer trabajo realizado con la base de datos “Encuesta Tenderos" (https://research-data.urosario.edu.co/file.xhtml?persistentId=doi:10.34848/JLP6C3/LYTD5L&version=2.0) que se encuentra subida en Rawdata como "Base_de_datos_encuesta" (puede descargarse del repositorio: https://research-data.urosario.edu.co/dataset.xhtml?persistentId=doi:10.34848/JLP6C3)
 
 El trabajo es completamente reproducible y los productos del mismo se encuentran en este repositorio. El entregable final es el codigo, las bases que se encuentran en las carpetas de "Output" y "Created data" y todo se encuentra sintetizado en la presetación final en la carpeta "slides".
 
