@@ -5,7 +5,7 @@
 // Autores: Samuel Blanco Castellanos - Juan Jose Rusinque - Alejandro Herrera - Joan Schick
 // Título: ¿Cómo se conectan los micronegocios con el sector financiero? y TAREAS RELACIONADAS CON LA CLASE
 //**********************************************************************************************************
-
+**Nota: Para correr el codigo debe modificar las rutas para abrir y guardar las bases**
 clear all
 
 // Establecer la ruta
@@ -219,6 +219,7 @@ save "C:\Users\Lenovo\Documents\Universidad\Material Clases\Haciendo Economía\T
 
 reshape wide internet, i(divipola Municipio poblacion_H) j(actG_num)
 save "C:\Users\Lenovo\Documents\Universidad\Material Clases\Haciendo Economía\Taller_1\Created Data\Base_Final_ancha_TAREA5", replace
+
 
 
 
