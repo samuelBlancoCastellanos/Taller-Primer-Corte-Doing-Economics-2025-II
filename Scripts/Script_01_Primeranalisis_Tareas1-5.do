@@ -5,7 +5,7 @@
 // Autores: Samuel Blanco Castellanos - Juan Jose Rusinque - Alejandro Herrera - Joan Schick
 // Título: ¿Cómo se conectan los micronegocios con el sector financiero? y TAREAS RELACIONADAS CON LA CLASE
 //**********************************************************************************************************
-**Nota: Para correr el codigo debe modificar las rutas para abrir y guardar las bases**
+
 clear all
 
 // Establecer la ruta
@@ -29,9 +29,16 @@ graph pie if !missing(Solic_Credito_val), over(Solic_Credito_val) ///
     p(2, color(maroon)) ///
     p(3, color(gs12)) ///
     sort
-
-//GRAFICA DE BARRAS HORIZONTAL RAZONES DE NO SOLICITAR CREDITOS (GRAFICA DE BARRAS 2)
+graph export "C:\Users\Lenovo\Documents\Universidad\Material Clases\Haciendo Economía\Taller_1\Figures\piechart.png", replace
+	
+	
+// Calcular totales y porcentajes
 collapse (sum) Razon_No_Cred__1-Razon_No_Cred__10
+egen total = rowtotal(Razon_No_Cred__1-Razon_No_Cred__10)
+foreach var of varlist Razon_No_Cred__1-Razon_No_Cred__10 {
+    replace `var' = (`var'/total)*100
+}
+
 gen id = 1
 reshape long Razon_No_Cred__, i(id) j(opcion)
 
@@ -49,14 +56,15 @@ label define razones_credito ///
 
 label values opcion razones_credito
 
-//Aqui se genera el Gráfico horizontal 
+// Gráfico horizontal con etiquetas en porcentaje
 graph bar Razon_No_Cred__, over(opcion, sort(1) descending label(angle(0))) ///
     bar(1, color(maroon)) ///
-    blabel(bar, size(small) color(black)) ///
+    blabel(bar, size(small) color(black) format(%4.1f)) ///
     ytitle("") ///
     title("Principales razones para no solicitar crédito entre micronegocios", size(medsmall)) ///
     legend(off) ///
     horizontal
+graph export "C:\Users\Lenovo\Documents\Universidad\Material Clases\Haciendo Economía\Taller_1\Figures\Barchart_Razones_NO.png", replace
 
 	
 //GRAFICO MULTIPLE DE PERSONAS QUE SI ACEPTAN PRESTAMOS	A QUIENES SE LO PIDEN (GRAFICO DE BARRAS 3)
@@ -87,6 +95,8 @@ graph bar (count), over(cred_, label(angle(15))) by(tipo_n, title("Solicitudes d
     ytitle("Número de personas", size(small)) ///
     legend(order(1 "Sí, lo aceptó" 2 "Sí, le fue negado" 3 "Sí, pero no lo usó" 4 "No lo solicitó") ///
            size(small) row(1) position(6)) // 
+
+graph export "C:\Users\Lenovo\Documents\Universidad\Material Clases\Haciendo Economía\Taller_1\Figures\Barchart_Razones_SI.png", replace
 
 
 ************************************************** CUARTA SESIÓN TAREAS A ENTREGAR **************************************************************************
@@ -219,7 +229,6 @@ save "C:\Users\Lenovo\Documents\Universidad\Material Clases\Haciendo Economía\T
 
 reshape wide internet, i(divipola Municipio poblacion_H) j(actG_num)
 save "C:\Users\Lenovo\Documents\Universidad\Material Clases\Haciendo Economía\Taller_1\Created Data\Base_Final_ancha_TAREA5", replace
-
 
 
 
