@@ -4,6 +4,30 @@
 // Primer Taller de clase
 // Autores: Samuel Blanco Castellanos - Juan Jose Rusinque - Alejandro Herrera - Joan Schick
 // Título: ¿Cómo se conectan los micronegocios con el sector financiero? y TAREAS RELACIONADAS CON LA CLASE
+/*Descripción general:
+ Este script realiza el primer análisis de datos de la encuesta aplicada a micronegocios, 
+ explorando su relación con el sector financiero y resolviendo las Tareas 1 a 5 asignadas 
+ en clase. El flujo del código incluye:
+
+ 1. **Análisis gráfico (Sesiones 1–3):**
+    - Gráfico de pastel sobre solicitudes de crédito en los últimos 12 meses.
+    - Gráfico de barras sobre razones para no solicitar crédito.
+    - Gráfico comparativo de aceptación/rechazo de préstamos según la fuente (bancos, amigos, particulares).
+    - Exportación de gráficos en formato .png.
+
+ 2. **Tareas de transformación y análisis (Sesiones 4–5):**
+    - **Tarea 1:** Generar base con promedio de uso de internet por municipio (formato porcentual).
+    - **Tarea 2:** Promedio de uso de internet por tipo de actividad económica (formato largo).
+    - **Tarea 3:** Promedio de uso de internet por actividad y municipio, con divipola estandarizado.
+    - **Tarea 4:** Limpieza de datos de TerriDATA (dimensión 2 sub1 – Hombres), cálculo de población 
+                  y estandarización de variables.
+    - **Tarea 5:** Unión (merge) entre la base de Tarea 3 y TerriDATA limpia, 
+                  generación de bases finales en formato largo y ancho.
+
+ Salidas:
+ - Gráficos exportados en carpeta `Figures`.
+ - Bases de datos intermedias y finales guardadas en carpeta `Created Data`.
+*/
 //**********************************************************************************************************
 
 clear all
