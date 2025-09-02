@@ -32,7 +32,7 @@ Para responder cada una de estas preguntas, utilizamos el software Stata, que no
 
 ***Tercer acercamiento:***  **Taller Power BI**
 
-Tercer acercamiento: Para este tercer trabajo se utilizó el software Power Bi con el objetivo de facilitar la visualización de datos relacionados con el uso del internet por parte de distintas entidades comerciales a nivel nacional. 
+Para este tercer trabajo se utilizó el software Power Bi con el objetivo de facilitar la visualización de datos relacionados con el uso del internet por parte de distintas entidades comerciales a nivel nacional. 
 
 Para ello se construyeron diferentes gráficos y mapas que permiten comprender de manera más clara información: en primer lugar, se encuentra un diagrama de barras que muestra los principales sectores económicos en cada ciudad; en segundo lugar, un diagrama circular que evidencia la proporción de locales que cuentan con el servicio de internet; en tercer lugar , un treemap que clasifica los principales usos del internet en las diversas actividades económicas; y finalmente, un mapa  por municipio que refleja  la densidad de comercios conectados. 
 
